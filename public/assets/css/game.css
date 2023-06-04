@@ -1,0 +1,50 @@
+body {
+    background-color: #3B443C;
+}
+
+.headerrow {
+    background-color: #E8E8E8;
+}
+
+.join_room_response, .left_room_response {
+    color: #E8E8E8;
+}
+
+.chat_message {
+    font-size: 125%;
+    color: #E8E8E8;
+}
+
+table#game_board {
+    border: 8px solid #102313;
+    background-color: #3C864A;
+    margin: 0px;
+    padding: 0px;
+}
+
+table#game_board td {
+    border: 2px solid #102313;
+    margin: 0px;
+    padding: 0px;
+}
+
+td.hovered_over:hover {
+    background-image: url('/assets/images/Hover.gif');
+}
+
+.whitetext {
+    color: #E8E8E8;
+}
+
+.quitbutton {
+    text-align: right;
+}
+
+#game_over {
+    color: #E8E8E8;
+}
+
+.background_outline {
+    outline: 1.5px solid #3B443C;
+    outline-offset: -1.5px;
+}
