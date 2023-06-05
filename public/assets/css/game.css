@@ -48,3 +48,9 @@ td.hovered_over:hover {
     outline: 1.5px solid #3B443C;
     outline-offset: -1.5px;
 }
+
+#elapsed {
+    color: #E8E8E8;
+    text-align: left;
+    text-indent: 5px;
+}
